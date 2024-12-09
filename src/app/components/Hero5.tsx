@@ -27,7 +27,7 @@ const DiscountItem: React.FC = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
             feugiat habitasse nec, bibendum condimentum.
           </p>
-          <ul className="list-none  space-y-2 text-gray-500 flex  items-center gap-6">
+          <ul className="list-none  space-y-2 text-gray-500 flex  items-center gap-4">
             <ul>
               <li><GiCheckMark className="inline-block" />Material expose like metals</li>
               <li><GiCheckMark className="inline-block"/>Simple neutral colours</li></ul>
