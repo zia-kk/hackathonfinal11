@@ -4,15 +4,15 @@ import { FaSquareTwitter } from "react-icons/fa6";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-blue-50 py-12">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-2">
         {/* Newsletter */}
         <div>
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Hekto</h2>
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col  space-y-4">
             <input
               type="email"
               placeholder="Enter Email Address"
-              className="p-3 rounded-md border border-gray-300"
+              className="rounded-md border border-gray-300"
             />
             <button className="bg-pink-500 text-white px-6 py-3 rounded-md font-semibold">Sign Up</button>
           </div>
@@ -58,10 +58,10 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-8 text-center flex gap-[200px] mx-[200px] text-gray-500 text-sm">
-        ©Webecy - All Rights Reserved
-        <FaFacebook />
-        <FaSquareTwitter />
+      <div className="mt-8 text-center justify-center flex gap-[50px] mx-[200px] text-gray-500 text-sm">
+        <h3 className="text-[18px]">©Webecy - All Rights Reserved</h3>
+        <FaFacebook className="text-[26px]"/>
+        <FaSquareTwitter className="text-[26px]"/>
       </div>
     </footer>
   );
