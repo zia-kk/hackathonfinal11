@@ -9,9 +9,9 @@ export default function TopCategories() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 lg:gap-8 max-w-6xl mx-auto">
         {/* Category 1 */}
         <div className="relative flex flex-col items-center text-center space-y-2">
-          <div className="w-32 h-32 rounded-full border-4 border-purple-500 flex items-center justify-center relative">
+          <div className="drop-shadow-[5px_3px_2px_#151875] bg-[#F6F7FB] h-[150px] w-[150px] rounded-full flex items-center justify-center relative">
             <Image
-              src="/chair1.png" 
+              src="/chair20.png" 
               alt="Mini LCW Chair"
               width={100}
               height={100}
@@ -27,13 +27,14 @@ export default function TopCategories() {
 
         {/* Category 2 */}
         <div className="flex flex-col items-center text-center space-y-2">
-          <div className="w-32 h-32 rounded-full border-4 border-gray-300 flex items-center justify-center">
+          <div className=" bg-[#F6F7FB] h-[150px] w-[150px] rounded-full flex items-center justify-center">
+          
             <Image
-              src="/chair2.png"
+              src="/chair1.png"
               alt="Mini LCW Chair"
               width={100}
               height={100}
-              className="object-contain"
+              className="object-contain "
             />
           </div>
           <h3 className="text-sm font-medium">Mini LCW Chair</h3>
@@ -42,9 +43,9 @@ export default function TopCategories() {
 
         {/* Category 3 */}
         <div className="flex flex-col items-center text-center space-y-2">
-          <div className="w-32 h-32 rounded-full border-4 border-gray-300 flex items-center justify-center">
+          <div className="bg-[#F6F7FB] h-[150px] w-[150px] rounded-full flex items-center justify-center">
             <Image
-              src="/chair3.png" 
+              src="/chair10.png" 
               alt="Mini LCW Chair"
               width={100}
               height={100}
@@ -57,9 +58,9 @@ export default function TopCategories() {
 
         {/* Category 4 */}
         <div className="flex flex-col items-center text-center space-y-2">
-          <div className="w-32 h-32 rounded-full border-4 border-gray-300 flex items-center justify-center">
+          <div className="bg-[#F6F7FB] h-[150px] w-[150px] rounded-full flex items-center justify-center">
             <Image
-              src="/chair4.png"
+              src="/chair20.png"
               alt="Mini LCW Chair"
               width={100}
               height={100}
