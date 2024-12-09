@@ -12,8 +12,8 @@ const Hero7 = () => {
     height={462}
     className="w-full"
   />
-  <div className="absolute inset-0 flex flex-col justify-center items-center">
-    <h3 className="text-4xl text-[#151875] font-extrabold mb-4">
+  <div className="absolute inset-0 flex flex-col justify-center items-center ">
+    <h3 className="text-4xl text-[#151875] font-extrabold mb-4 w-[700px] leading-[50px] text-center tracking-[5%]">
     Get Leatest Update By Subscribe
     0ur Newslater
     </h3>
