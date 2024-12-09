@@ -17,7 +17,7 @@ const DiscountItem: React.FC = () => {
         </div>
       <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-10 px-6">
         {/* Left Content */}
-        <div className="flex-1 ml-[120px] ">
+        <div className="flex-1 ml-[100px] ">
           
           <h3 className="text-2xl font-bold text-gray-800 mb-4">
             20% Discount Of All Products
