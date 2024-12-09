@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex my-2 items-center space-x-6 text-sm">
           <div className="flex items-center space-x-1">
          
-            <CiMail className="w-4 h-4" />
+            <CiMail className=" w-4 h-4" />
             <span>mhhasanul@gmail.com</span>
           </div>
           <div className="flex items-center space-x-1">
