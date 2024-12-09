@@ -113,9 +113,12 @@ export default function ProductSection() {
 <section className="mb-16">
   
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {/* Product 1 */}
+
+    {/* first Product   */}
+
     <Card className="group">
-      <CardContent className="p-4">
+
+    <CardContent className="p-4">
         <div className="relative aspect-square mb-12">
           <Image
             src="/chair5.png" 
@@ -132,7 +135,7 @@ export default function ProductSection() {
       
       </CardContent>
     </Card>
-    {/* Product 2 */}
+    {/*second  Product  */}
     <Card className="group">
       <CardContent className="p-4">
         
@@ -154,7 +157,7 @@ export default function ProductSection() {
        </div>
       </CardContent>
     </Card>
-    {/* Product 3 */}
+    {/* second Product  */}
     <Card className="group">
       <CardContent className="p-4">
         <div className="relative aspect-square mb-12">
@@ -171,7 +174,7 @@ export default function ProductSection() {
        </div>
       </CardContent>
     </Card>
-      {/* Product 4 */}
+      {/* forth Product */}
       <Card className="group">
       <CardContent className="p-4">
         <div className="relative aspect-square mb-12">
@@ -188,7 +191,7 @@ export default function ProductSection() {
        </div>
       </CardContent>
     </Card>
-      {/* Product 5 */}
+      {/* fifth Product */}
       <Card className="group">
       <CardContent className="p-4">
         <div className="relative aspect-square mb-12">
@@ -205,7 +208,7 @@ export default function ProductSection() {
        </div>
       </CardContent>
     </Card>
-      {/* Product 6 */}
+      {/* six Product*/}
       <Card className="group">
       <CardContent className="p-4">
         <div className="relative aspect-square mb-12">
