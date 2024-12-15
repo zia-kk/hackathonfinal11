@@ -1,15 +1,16 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-md mt-[10px] px-4 py-3 flex flex-col md:flex-row lg:flex-row justify-evenly items-center p-[168px]">
-      <div className="text-xl font-bold text-purple-700 text-[40px] ">
+      <div className=" font-bold text-purple-700 text-[42px]">
         Hekto
       </div>
       <ul className="flex space-x-6 text-sm">
         <li className=" cursor-pointer font-semibold hover:underline text-[18px]">Home</li>
-        <li className=" cursor-pointer font-semibold hover:underline text-[18px]">Pages</li>
+       <Link href="/Pages"><li className=" cursor-pointer font-semibold hover:underline text-[18px]">Pages</li></Link> 
         <li className=" cursor-pointer font-semibold hover:underline text-[18px]">Products</li>
         <li className=" cursor-pointer font-semibold hover:underline text-[18px]">Blog</li>
         <li className=" cursor-pointer font-semibold hover:underline text-[18px]">Shop</li>
