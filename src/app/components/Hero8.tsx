@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { FaPenNib } from "react-icons/fa";
 import { MdOutlineDateRange } from "react-icons/md";
 const blogPosts = [
@@ -37,7 +38,7 @@ const LeatestBlog: React.FC = () => {
           className="bg-white rounded-md shadow-md p-4"
           style={{ width: "300px", height: "420px" }}
         >
-          <img src={blogPosts[0].imgSrc} alt={blogPosts[0].title} className="h-40 w-full object-cover rounded-md" />
+          <Image src={blogPosts[0].imgSrc} alt={blogPosts[0].title} className="h-40 w-full object-cover rounded-md" />
           <div className="mt-4">
             <div className="text-sm text-gray-500 flex items-center gap-2">
             <FaPenNib className="text-[#FB2E86]" /><span className="text-[#151875]">{blogPosts[0].author}</span>
@@ -54,7 +55,7 @@ const LeatestBlog: React.FC = () => {
           className="bg-white rounded-md shadow-md p-4"
           style={{ width: "300px", height: "420px" }}
         >
-          <img src={blogPosts[1].imgSrc} alt={blogPosts[1].title} className="h-40 w-full object-cover rounded-md" />
+          <Image  src={blogPosts[1].imgSrc} alt={blogPosts[1].title} className="h-40 w-full object-cover rounded-md" />
           <div className="mt-4">
           <div className="text-sm text-gray-500 flex items-center gap-2">
             <FaPenNib className="text-[#FB2E86]" /><span className="text-[#151875]">{blogPosts[0].author}</span>
@@ -71,7 +72,7 @@ const LeatestBlog: React.FC = () => {
           className="bg-white rounded-md shadow-md p-4"
           style={{ width: "300px", height: "420px" }}
         >
-          <img src={blogPosts[2].imgSrc} alt={blogPosts[2].title} className="h-40 w-full object-cover rounded-md" />
+          <Image  src={blogPosts[2].imgSrc} alt={blogPosts[2].title} className="h-40 w-full object-cover rounded-md" />
           <div className="mt-4">
           <div className="text-sm text-gray-500 flex items-center gap-2">
             <FaPenNib className="text-[#FB2E86]" /><span className="text-[#151875]">{blogPosts[0].author}</span>
