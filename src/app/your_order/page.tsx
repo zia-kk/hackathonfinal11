@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Clock, ClipboardCheck, Check } from 'lucide-react'
 import Link from "next/link"
+import Image from "next/image"
 
 export default function OrderConfirmation() {
   return (
@@ -38,8 +39,18 @@ export default function OrderConfirmation() {
             <ClipboardCheck className="w-8 h-8 md:w-12 md:h-12 text-pink-500" />
           </div>
         </div>
+        <div className=" justify-center items-center py-24 hidden md:flex sm:hidden lg:flex">
+              <Image
+              src="/logolist.png"
+              width={904}
+              height={93}
+              alt="logoos"
+              />
+            </div>
       </div>
+        
     </div>
+    
   )
 }
 

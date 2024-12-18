@@ -240,7 +240,7 @@ export default function ProductGrid() {
         ))}
       </div>
 
-      <div className="flex justify-center items-center py-24">
+      <div className="justify-center items-center py-24 hidden md:flex sm:hidden lg:flex">
         <Image
         src="/logolist.png"
         width={904}

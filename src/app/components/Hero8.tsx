@@ -17,7 +17,7 @@ const blogPosts = [
     date: "21 August,2020",
     title: "Top essential Trends in 2021",
     description: "More of this less hello samlande lied much over tightly circa horse taped mightly",
-    imgSrc: "blog2.png",
+    imgSrc: "/blog2.png",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const blogPosts = [
     date: "21 August,2020",
     title: "Top essential Trends in 2021",
     description: "More of this less hello samlande lied much over tightly circa horse taped mightly",
-    imgSrc: "blog3.png",
+    imgSrc: "/blog3.png",
   },
 ];
 
@@ -38,7 +38,7 @@ const LeatestBlog: React.FC = () => {
           className="bg-white rounded-md shadow-md p-4"
           style={{ width: "300px", height: "420px" }}
         >
-          <Image src={blogPosts[0].imgSrc} alt={blogPosts[0].title} className="h-40 w-full object-cover rounded-md" />
+          <Image src={blogPosts[0].imgSrc} alt={blogPosts[0].title} width={300} height={420} className="h-40 w-full object-cover rounded-md" />
           <div className="mt-4">
             <div className="text-sm text-gray-500 flex items-center gap-2">
             <FaPenNib className="text-[#FB2E86]" /><span className="text-[#151875]">{blogPosts[0].author}</span>
@@ -55,7 +55,7 @@ const LeatestBlog: React.FC = () => {
           className="bg-white rounded-md shadow-md p-4"
           style={{ width: "300px", height: "420px" }}
         >
-          <Image  src={blogPosts[1].imgSrc} alt={blogPosts[1].title} className="h-40 w-full object-cover rounded-md" />
+          <Image  src={blogPosts[1].imgSrc} alt={blogPosts[1].title} width={300} height={420} className="h-40 w-full object-cover rounded-md" />
           <div className="mt-4">
           <div className="text-sm text-gray-500 flex items-center gap-2">
             <FaPenNib className="text-[#FB2E86]" /><span className="text-[#151875]">{blogPosts[0].author}</span>
@@ -72,7 +72,7 @@ const LeatestBlog: React.FC = () => {
           className="bg-white rounded-md shadow-md p-4"
           style={{ width: "300px", height: "420px" }}
         >
-          <Image  src={blogPosts[2].imgSrc} alt={blogPosts[2].title} className="h-40 w-full object-cover rounded-md" />
+          <Image  src={blogPosts[2].imgSrc} alt={blogPosts[2].title} width={300} height={420} className="h-40 w-full object-cover rounded-md" />
           <div className="mt-4">
           <div className="text-sm text-gray-500 flex items-center gap-2">
             <FaPenNib className="text-[#FB2E86]" /><span className="text-[#151875]">{blogPosts[0].author}</span>
