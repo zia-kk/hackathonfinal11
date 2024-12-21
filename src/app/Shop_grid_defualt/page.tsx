@@ -30,13 +30,13 @@ const products: Product[] = [
       {  hex: "#0000ff" },
       {  hex: "#000000" },
     ],
-    imageUrl: "/placeholder.svg?height=300&width=300",
+    imageUrl: "/chair21.png",
   },
 
     // Product 2
   {
     id: 2,
-    name: "Vel elit euismod",
+    name: "Ultricies condimentum imperdiet",
     price: 50.0,
     salePrice: 45.0,
     colors: [
@@ -44,12 +44,12 @@ const products: Product[] = [
       {  hex: "#7c3aed" },
       {  hex: "#be123c" },
     ],
-    imageUrl: "/placeholder.svg?height=300&width=300",
+    imageUrl: "/chair22.png",
   },
     // Product 3
     {
       id: 2,
-      name: "Vel elit euismod",
+      name: "Vitae suspendisse sed",
       price: 50.0,
       salePrice: 45.0,
       colors: [
@@ -57,13 +57,13 @@ const products: Product[] = [
         {  hex: "#7c3aed" },
         {  hex: "#be123c" },
       ],
-      imageUrl: "/placeholder.svg?height=300&width=300",
+      imageUrl: "/chair23.png",
     },
       // Product 4
 
       {
         id: 2,
-        name: "Vel elit euismod",
+        name: "Sed at fermentum",
         price: 50.0,
         salePrice: 45.0,
         colors: [
@@ -71,13 +71,13 @@ const products: Product[] = [
           {  hex: "#7c3aed" },
           {  hex: "#be123c" },
         ],
-        imageUrl: "/placeholder.svg?height=300&width=300",
+        imageUrl: "/chair24.png",
       },
         // Product 5
 
         {
           id: 2,
-          name: "Vel elit euismod",
+          name: "Fusce pellentesque at",
           price: 50.0,
           salePrice: 45.0,
           colors: [
@@ -85,13 +85,13 @@ const products: Product[] = [
             {  hex: "#7c3aed" },
             {  hex: "#be123c" },
           ],
-          imageUrl: "/placeholder.svg?height=300&width=300",
+          imageUrl: "/chair25.png",
         },
           // Product 6
 
           {
             id: 2,
-            name: "Vel elit euismod",
+            name: "Vestibulum magna laoreet",
             price: 50.0,
             salePrice: 45.0,
             colors: [
@@ -99,13 +99,13 @@ const products: Product[] = [
               {  hex: "#7c3aed" },
               {  hex: "#be123c" },
             ],
-            imageUrl: "/placeholder.svg?height=300&width=300",
+            imageUrl: "/chair26.png",
           },
 
             // Product 7
   {
     id: 1,
-    name: "Vel elit euismod",
+    name: "Sollicitudin amet orci",
     price: 50.0,
     salePrice: 45.0,
     colors: [
@@ -113,13 +113,13 @@ const products: Product[] = [
       {  hex: "#0000ff" },
       {  hex: "#000000" },
     ],
-    imageUrl: "/placeholder.svg?height=300&width=300",
+    imageUrl: "/chair27.png",
   },
 
     // Product 8
   {
     id: 2,
-    name: "Vel elit euismod",
+    name: "Ultrices mauris sit",
     price: 50.0,
     salePrice: 45.0,
     colors: [
@@ -127,12 +127,12 @@ const products: Product[] = [
       {  hex: "#7c3aed" },
       {  hex: "#be123c" },
     ],
-    imageUrl: "/placeholder.svg?height=300&width=300",
+    imageUrl: "/chair28.png",
   },
     // Product 9
     {
       id: 2,
-      name: "Vel elit euismod",
+      name: "Pellentesque condimentum ac",
       price: 50.0,
       salePrice: 45.0,
       colors: [
@@ -140,13 +140,13 @@ const products: Product[] = [
         {  hex: "#7c3aed" },
         {  hex: "#be123c" },
       ],
-      imageUrl: "/placeholder.svg?height=300&width=300",
+      imageUrl: "/chair29.png",
     },
       // Product 10
 
       {
         id: 2,
-        name: "Vel elit euismod",
+        name: "Cras scelerisque velit",
         price: 50.0,
         salePrice: 45.0,
         colors: [
@@ -154,13 +154,13 @@ const products: Product[] = [
           {  hex: "#7c3aed" },
           {  hex: "#be123c" },
         ],
-        imageUrl: "/placeholder.svg?height=300&width=300",
+        imageUrl: "/chair30.png",
       },
         // Product 11
 
         {
           id: 2,
-          name: "Vel elit euismod",
+          name: "Lectus vulputate faucibus",
           price: 50.0,
           salePrice: 45.0,
           colors: [
@@ -168,13 +168,13 @@ const products: Product[] = [
             {  hex: "#7c3aed" },
             {  hex: "#be123c" },
           ],
-          imageUrl: "/placeholder.svg?height=300&width=300",
+          imageUrl: "/chair31.png",
         },
           // Product 12
 
           {
             id: 2,
-            name: "Vel elit euismod",
+            name: "Purus risus, ut",
             price: 50.0,
             salePrice: 45.0,
             colors: [
@@ -182,7 +182,7 @@ const products: Product[] = [
               {  hex: "#7c3aed" },
               {  hex: "#be123c" },
             ],
-            imageUrl: "/placeholder.svg?height=300&width=300",
+            imageUrl: "/chair24.png",
           },
         
   // Add more products as needed
@@ -202,13 +202,13 @@ export default function ProductGrid() {
             className="group relative overflow-hidden rounded-lg bg-white p-4 shadow-sm transition-shadow hover:shadow-md"
           >
             {/* Product Image */}
-            <div className="aspect-square overflow-hidden rounded-lg bg-gray-100">
+            <div className="aspect-square overflow-hidden rounded-lg bg-gray-100 flex justify-center items-center">
               <Image
                 src={product.imageUrl}
                 alt={product.name}
-                width={300}
-                height={300}
-                className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
+                width={200}
+                height={200}
+                className="h-[180px] w-[150px] object-cover object-center transition-transform duration-200 group-hover:scale-105 "
               />
             </div>
 

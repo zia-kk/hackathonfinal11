@@ -60,8 +60,8 @@ const Footer: React.FC = () => {
 
       <div className="mt-8 text-center justify-center flex gap-[50px] mx-[200px] text-gray-500 text-sm">
         <h3 className="text-[18px]">©Webecy - All Rights Reserved</h3>
-        <FaFacebook className="text-[26px]"/>
-        <FaSquareTwitter className="text-[26px]"/>
+        <FaFacebook className="text-[26px] text-[#151875]"/>
+        <FaSquareTwitter className="text-[26px] text-[#151875]"/>
       </div>
     </footer>
   );
