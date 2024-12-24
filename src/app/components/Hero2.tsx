@@ -2,8 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 import { Badge } from "@/components/ui/badge"
-import { Clock, Package, RefreshCw, Truck } from 'lucide-react'
+
 import Image from "next/image";
+import Featured from "../components/Services";
 
 
 export default function ProductSection() {
@@ -229,55 +230,10 @@ export default function ProductSection() {
 </section>
 
 {/* What Shopex Offer Section */}
-<section>
-  <h2 className="text-2xl font-semibold text-center mb-8">What Shopex Offer!</h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-    <Card>
-      <CardContent className="p-6 text-center">
-        <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
-          <Clock className="w-8 h-8 text-purple-600" />
-        </div>
-        <h3 className="font-medium text-lg mb-2">24/7 Support</h3>
-        <p className="text-muted-foreground text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-      </CardContent>
-    </Card>
-    <Card>
-      <CardContent className="p-6 text-center">
-        <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
-          <RefreshCw className="w-8 h-8 text-purple-600" />
-        </div>
-        <h3 className="font-medium text-lg mb-2">Money Return</h3>
-        <p className="text-muted-foreground text-sm">
-          30 days money back guarantee for all products.
-        </p>
-      </CardContent>
-    </Card>
-    <Card>
-      <CardContent className="p-6 text-center">
-        <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
-          <Package className="w-8 h-8 text-purple-600" />
-        </div>
-        <h3 className="font-medium text-lg mb-2">Free Shipping</h3>
-        <p className="text-muted-foreground text-sm">
-          Free shipping on all orders over $100.
-        </p>
-      </CardContent>
-    </Card>
-    <Card>
-      <CardContent className="p-6 text-center">
-        <div className="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
-          <Truck className="w-8 h-8 text-purple-600" />
-        </div>
-        <h3 className="font-medium text-lg mb-2">Fast Delivery</h3>
-        <p className="text-muted-foreground text-sm">
-          Fast delivery for all orders in eligible areas.
-        </p>
-      </CardContent>
-    </Card>
-  </div>
-</section>
+
+  <h2 className="text-2xl font-semibold text-center mb-2">What Shopex Offer!</h2>
+  
+<Featured/>
 
     </div>
   );
