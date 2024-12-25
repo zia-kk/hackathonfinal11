@@ -71,17 +71,20 @@ function Navbar() {
                       <Link href="/product-details">Product Details</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
-                      <Link href="/cart">Cart</Link>
+                      <Link href="/cart">Shopping Cart</Link>
                     </li>
+                    
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
                       <Link href="/your_order">Your Order</Link>
                     </li>
+                   
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
                       <Link href="/Accounts">My Account</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
-                      <Link href="/blog">Blog</Link>
+                      <Link href="/blog">Blog Page</Link>
                     </li>
+                
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
                       <Link href="/Faqs">FAQs</Link>
                     </li>
