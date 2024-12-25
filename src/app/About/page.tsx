@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import ShopHeader from "../Shop_grid_defualt/grid_header"
+import Header from "./header_about"; 
 import Featured from "../components/Services";
 import Client from "../components/Client";
 
@@ -11,7 +11,7 @@ export default function AboutSection() {
   return (
    <>
   
-<ShopHeader/>
+<Header/>
    <section className="container mx-auto px-4 py-12 md:py-24">
       <div className="relative rounded-2xl  bg-white p-4 md:p-8">
         <div className="grid gap-8 md:grid-cols-2 md:gap-12 lg:gap-16">

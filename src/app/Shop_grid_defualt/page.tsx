@@ -1,6 +1,6 @@
 import Image from "next/image";
 import EcommerceSection from "./sort";
-import ShopHeader from "./grid_header";
+import Header from "./topnavbar";
 
 
 interface Product {
@@ -191,7 +191,7 @@ const products: Product[] = [
 export default function ProductGrid() {
   return (
    <>
-   <ShopHeader/>
+   <Header/>
    <EcommerceSection/>
     <section className="w-full px-4 py-8 mx-auto max-w-7xl">
        
