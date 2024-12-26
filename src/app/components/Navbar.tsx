@@ -79,7 +79,7 @@ function Navbar() {
                     </li>
                    
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
-                      <Link href="/Accounts">My Account</Link>
+                      <Link href="/Login">My Account</Link>
                     </li>
                     <li className="px-4 py-2 hover:bg-gray-200 rounded-3xl">
                       <Link href="/blog">Blog Page</Link>
